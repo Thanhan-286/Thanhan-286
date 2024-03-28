@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+.slider{
+    /* width: 100%; */
+    /* background-image: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2024/homepagepfas/march/en/INF-EN-HOME-LEFT-PFA-desktop-1500x555_v3.jpg") ;
+    background-size: auto; */
+}
+.img-fluid{
+    width: 100%;
+    height: 100%;
+}
+
