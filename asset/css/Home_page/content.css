@@ -1,4 +1,4 @@
-.row {
+/* .row {
   background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2024/homepagepfas/march/en/INF-EN-HOME-LEFT-PFA-desktop-1500x555_v3.jpg");
 }
 .row .text-infinity-1 {
@@ -17,6 +17,88 @@
 
 .text-infinity-1 .text-infinity{
   justify-content: flex-start;
+} */
+.content-container{
+  display: flex;
+  flex-direction: column;
+}
+.row-item-1,
+.row-item {
+  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-qx80-luxury-suv-xl-dsk.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height:  37.7500em; 
+  display: flex;
+}
+.row-item-1{
+  justify-content: flex-end;
+}
+.content-item {
+  display: flex;
+  padding-left: 6%;
+  padding-top: 2%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content-item-1 {
+  display: flex;
+  padding-right: 6%;
+  padding-top: 2%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text{
+  color: aliceblue;
+}
+.button-item{
+  margin-top: 6% ;
+  margin-right: 60%;
+}
+.button-item button{
+  background-color: bisque;
+  border-radius: 15px;
+}
+@media screen and (max-width:600px){
+  .button-item button{
+    background-color: bisque;
+    width: 100vw;
+  }
+
+  .text{
+    color: black;
+  }
+  .content-item {
+    display: flex;
+    padding-left: 6%;
+    padding-top: 7%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content-item-1 {
+    display: flex;
+    padding-left: 6%;
+    padding-top: 7%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .button-item button{
+    background-color: bisque;
+    width: 100vw;
+    margin-left: 25%;
+  }
+
+  .row-item-1{
+    justify-content: flex-start;
+  }
+  
+  
 }
 
 
