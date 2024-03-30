@@ -1,0 +1,25 @@
+.row {
+  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2024/homepagepfas/march/en/INF-EN-HOME-LEFT-PFA-desktop-1500x555_v3.jpg");
+}
+.row .text-infinity-1 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  color: brown;
+}
+
+.text-infinity-1 {
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+
+}
+
+.text-infinity-1 .text-infinity{
+  justify-content: flex-start;
+}
+
+
+
+
+/*# sourceMappingURL=content.css.map */
