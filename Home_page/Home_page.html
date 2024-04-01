@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/asset/css/hearder.css">
     <link rel="stylesheet" href="/asset/css/footer.css">
     <link rel="stylesheet" href="/asset/css/Home_page/content.css">
+    <link rel="stylesheet" href="/asset/css/Home_page/registration.css">
     <!-- Link sass -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.11.1/sass.min.js" integrity="sha512-/F8YhC3n5OrM9ta9htMD620kH0paKnjDHCHcSvyWumxlqsnkS/XCpYExuMZuXE4K3GE9tDQFBqgXsmkjsjRbDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
@@ -62,8 +63,210 @@
             </form> -->
 
             <!-- Order Now -->
-            <a href="#" class="btn-order btn me-auto btn-lg btn-danger   " aria-disabled="true">Order Now</a>
+            <a type="button" href="#" class="btn-order btn me-auto btn-lg btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now</a>
             
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                  
+                    <!-- form -->
+                      <div class="container">
+                        <header>Registration</header>
+                        <form action="#">
+                            <div class="form first">
+                                <div class="detail-personal">
+                                    <span class="title">Personal Details</span>
+                
+                                    <div class="fields">
+                                        <div class="input-field">
+                                            <label for="">Full Name</label>
+                                            <input type="text" placeholder="Enter your name" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Date of Birth</label>
+                                            <input type="date" placeholder="Enter your name" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Email</label>
+                                            <input type="email" placeholder="Enter your email" required>
+                                        </div>
+                
+                
+                                        <div class="input-field">
+                                            <label for="">Mobile Number</label>
+                                            <input type="number" placeholder="Enter your number" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Gender</label>
+                                            <input type="date" placeholder="Enter your gender" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Occupation</label>
+                                            <input type="text" placeholder="Enter your occupation" required>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                
+                                <div class="detail ID">
+                                    <span class="title">Identity Details</span>
+                
+                                    <div class="fields">
+                                        <div class="input-field">
+                                            <label for="">ID type</label>
+                                            <input type="text" placeholder="Enter ID type" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">ID Number</label>
+                                            <input type="number" placeholder="Enter ID number" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Issued Authority</label>
+                                            <input type="text" placeholder="Enter issued Authority" required>
+                                        </div>
+                
+                
+                                        <div class="input-field">
+                                            <label for="">Issued State</label>
+                                            <input type="text" placeholder="Enter issued state" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Issued Date</label>
+                                            <input type="date" placeholder="Enter issued date" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Expiry Date</label>
+                                            <input type="text" placeholder="Enter expriry date" required>
+                                        </div>
+                                    </div>
+                
+                                    <buttton class="nextBtn">
+                                        <span class="btnText">
+                                            Next
+                                        </span>
+                                        <i class="uil uil-navigator"></i>
+                                    </buttton>
+                                </div>
+                            </div>
+                                <!-- Form secord -->
+                            <div class="form second">
+                                <div class="detail address">
+                                    <span class="title">Address Details</span>
+                
+                                    <div class="fields">
+                                        <div class="input-field">
+                                            <label for="">Address Type</label>
+                                            <input type="text" placeholder="Enter address type" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Nationality</label>
+                                            <input type="text" placeholder="Enter Nationality" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">State</label>
+                                            <input type="email" placeholder="Enter your state" required>
+                                        </div>
+                
+                
+                                        <div class="input-field">
+                                            <label for="">District</label>
+                                            <input type="text" placeholder="Enter your district" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Block Number</label>
+                                            <input type="number" placeholder="Enter block number" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Ward Number</label>
+                                            <input type="number" placeholder="Enter ward number" required>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div class="detail family">
+                                    <span class="title">Family Details</span>
+                
+                                    <div class="fields">
+                                        <div class="input-field">
+                                            <label for="">Father name</label>
+                                            <input type="text" placeholder="Enter father name" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Mother Name</label>
+                                            <input type="text" placeholder="Enter mother name" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Siblings</label>
+                                            <input type="text" placeholder="Enter siblings name" required>
+                                        </div>
+                
+                
+                                        <div class="input-field">
+                                            <label for="">Father in Law</label>
+                                            <input type="text" placeholder="Father in law name" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Mother in Law</label>
+                                            <input type="text" placeholder="Mother in law name" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label for="">Spouse Name</label>
+                                            <input type="text" placeholder="Enter Spouse Name" required>
+                                        </div>
+                                    </div>
+                
+                                    <div class="buttons">
+                                        <div class="backBtn">
+                                            <i class="uil uil-navigator"></i>
+                                            <span class="btnText">
+                                                Back
+                                            </span>
+                                            
+                                        </div>
+                                        <buttton class="submit">
+                                            <span class="btnText">
+                                                Submit
+                                            </span>
+                                            <i class="uil uil-navigator"></i>
+                                        </buttton>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                      </div>
+                    <!-- form -->
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+              </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </nav>
@@ -79,8 +282,8 @@
     <!-- Content -->
     <div class="content-container">
       <!-- Đây là căn button sang trái -->
-      <div class="row-item">
-        <div class="content-item">
+      <div class="row-item ">
+        <div class="content-item ">
           <div class="text">
             <h3>INFINITI SPRING SALES EVENT</h3>
             <h5>Lease rates from 1.99%</h5>
@@ -170,7 +373,7 @@
             <p>on QX50, QX55 and QX60 models</p>
           </div>
           <div class="button-item">
-            <button class="btn">Shop now <i class="fa-solid fa-chevron-down" ></i></button>
+            <button class="btn ">Shop now <i class="fa-solid fa-chevron-down" ></i></button>
           </div>
         </div>
       </div>
@@ -186,7 +389,7 @@
             <p>on QX50, QX55 and QX60 models</p>
           </div>
           <div class="button-item">
-            <button class="btn ">Shop now <i class="fa-solid fa-chevron-down" ></i></button>
+            <button class="btn">Shop now <i class="fa-solid fa-chevron-down" ></i></button>
           </div>
         </div>
       </div>
@@ -202,13 +405,13 @@
             <p>on QX50, QX55 and QX60 models</p>
           </div>
           <div class="button-item">
-            <button class="">Shop now <i class="fa-solid fa-chevron-down" ></i></button>
+            <button class="btn">Shop now <i class="fa-solid fa-chevron-down" ></i></button>
           </div>
         </div>
       </div>
       <!-- end -->
       
-      </div>
+    </div>
     </div>
     </div>
       
@@ -469,7 +672,7 @@
     </footer>
     <!-- Footer -->
    
-      
+      <script src="/asset/js/registration.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
     crossorigin="anonymous"></script>

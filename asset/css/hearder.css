@@ -1,4 +1,6 @@
-
+.fa-solid{
+    transform: rotate(0deg);
+}
 .btn{
     padding: 8px 20px;
     background-color: #A2001D;
