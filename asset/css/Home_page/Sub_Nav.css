@@ -1,0 +1,74 @@
+
+.product-nav{
+    max-height: 100%;
+    max-width: 100%;
+}
+.sub-header{
+    background-color: aliceblue;
+    z-index: 10;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.sub-nav{
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 10%;
+    display: flex;
+}
+.sub-nav button{
+    margin-left: 55%;
+    width: 3em;
+    
+}
+
+.sub-content{
+    margin-top: 10%;
+    padding-left: 10%;
+    display: flex;
+}
+
+.left-nav{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.item-nav:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#presentation-cars{
+    width: 70%;
+    height: 100%;
+    margin-left: 8%;
+}
+#presentation-cars .img-render{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    border: black solid 1px;
+
+}
+
+.img-item{
+    width: 30%;
+    max-height: 30%;
+    row-gap: 2%;
+}
+
+.img-item img{
+    object-fit: cover;
+}
+
+.img-item:hover{
+    background-color: beige;
+}
+
+.img-item .text-img{
+    padding-left: 15%;
+}
+

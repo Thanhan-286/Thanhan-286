@@ -7,12 +7,16 @@ i {
   display: flex;
   flex-direction: column;
 }
-
+.row-item-1{
+  justify-content: flex-end;
+}
 .row-item-1,
 .row-item {
-  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2024/homepagepfas/march/en/INF-EN-HOME-LEFT-PFA-desktop-1500x555_v3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2024/homepagepfas/march/en/INF-EN-HOME-LEFT-PFA-desktop-1500x555_v3.jpg") center center;
+  background-repeat: no-repeat !important;
+  background-size: 100%;
+  object-fit: contain;
+  max-width: 100%;
   min-height: 34.55em;
   display: flex;
 }
@@ -36,9 +40,6 @@ i {
   background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/vi/HP-PFA.jpg");
 }
 
-.row-item-1{
-  justify-content: flex-end;
-}
 
 .content-item {
   display: flex;
