@@ -14,29 +14,38 @@ i {
 .row-item {
   background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2024/homepagepfas/march/en/INF-EN-HOME-LEFT-PFA-desktop-1500x555_v3.jpg") center center;
   background-repeat: no-repeat !important;
-  background-size: 100%;
+  background-size: 100% ;
   object-fit: contain;
   max-width: 100%;
   min-height: 34.55em;
   display: flex;
 }
-#item1{/*Them gi thi them*/}
-#item2{}
-#item3{}
+#item1{
+}
+#item2{
+  background: url('https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-qx80-luxury-suv-dsk.jpg');
+
+}
+#item3{
+  background: url('https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-qx60-luxury-crossover-coupe-dsk-v1.jpg');
+}
 
 #item4 {
-  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-qx55-luxury-crossover-coupe-dsk-v2.jpg");
+  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-qx50-luxury-sports-car-dsk-v1.jpg");
 }
 
 #item5{
-  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-q50-luxury-sedan-dsk-v1.jpg");
+  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-qx55-luxury-crossover-coupe-dsk-v2.jpg");
 }
 
 #item6{
-  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-q60-luxury-coupe-dsk-v1.jpg");
+  background: url('https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-q50-luxury-sedan-dsk-v1.jpg');
 }
 
 #item7{
+  background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/infiniti-q60-luxury-coupe-dsk-v1.jpg");
+}
+#item8{
   background: url("https://www.infiniti.ca/content/dam/Infiniti/Canada/home-page/next-gen/2023/vi/HP-PFA.jpg");
 }
 
@@ -72,6 +81,10 @@ i {
   background-color: bisque;
   border-radius: 15px;
 }
+
+/* Animation scroll */
+
+
 
 @media screen and (max-width: 600px) {
   .button-item button {
@@ -121,5 +134,25 @@ i {
     justify-content: flex-start;
   }
 }
+
+
+@media screen and (min-width: 600px) {
+  .left-to-right{
+    transform: translateX(-300%);
+    transition: 1s;
+  }
+  .left-to-right.start{
+    transform: translateX(0);
+  }
+  .right-to-left{
+    transform: translateX(300%);
+    transition: 1s;
+  }
+  .right-to-left.start{
+    transform: translateX(0);
+  }
+    
+}
+
 
 /*# sourceMappingURL=content.css.map */
