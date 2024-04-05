@@ -1,6 +1,9 @@
 :root{
     --font-size:15px,
 }
+.footer-car{
+    font-family: "Infiniti Regular", "Infiniti Extended Regular", Verdana, Arial, sans-serif;
+}
 
 footer section{
     background-color: #040C24;
@@ -8,9 +11,10 @@ footer section{
 h6 {
     color: #fff;
     font-family: "Infiniti Regular", "Infiniti Extended Regular", Verdana, Arial, sans-serif;
+    
 
 }
-a {
+a{
     font-family: "Infiniti Light", "Infiniti Extended Regular", Verdana, Arial, sans-serif;
     color: #b4b4b4;
     text-decoration: none;
@@ -22,4 +26,10 @@ footer a:hover{
 }
 .row.mt-3{
     color: #b4b4b4;
+}
+.footer_icon{
+    transform: rotate(0);
+}
+.text-reset:hover{
+    color: #fff;
 }
