@@ -12,7 +12,6 @@ function imgItem(linkUrl, className, classText, text){
 // render_vehicles.insertAdjacentHTML('beforeend', imgItem('https://www.infiniti.ca/content/dam/Infiniti/Canada/vehicles/Q50/2024/vap/vehicle-profile/infiniti-q50-red-sport-proactive-trim-grand-blue.png.ximg.l_3_m.smart.png', 'img-item', 'text-img', "Hello"))
 // render_vehicles.insertAdjacentHTML('beforeend', imgItem('https://www.infiniti.ca/content/dam/Infiniti/Canada/vehicles/Q50/2024/vap/vehicle-profile/infiniti-q50-red-sport-proactive-trim-grand-blue.png.ximg.l_3_m.smart.png', 'img-item', 'text-img', "Hello"))
 // render_vehicles.insertAdjacentHTML('beforeend', imgItem('https://www.infiniti.ca/content/dam/Infiniti/Canada/vehicles/Q50/2024/vap/vehicle-profile/infiniti-q50-red-sport-proactive-trim-grand-blue.png.ximg.l_3_m.smart.png', 'img-item', 'text-img', "hello"))
-
 const requestOptions = {
     method: "GET",
     redirect: "follow"
